@@ -1,6 +1,4 @@
-# continual-mixing
-
-This branch is a stripped-down copy of the project for sharing. Cluster wrappers, symlinks, and external subrepos have been removed. Run everything directly with Python.
+# OP-Mix
 
 ## Environment
 
