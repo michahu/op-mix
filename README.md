@@ -33,6 +33,8 @@ python train.py \
 
 Useful optional flags include `--max_steps`, `--batch_size`, `--seq_len`, `--learning_rate`, `--gradient_accumulation_steps`, `--use_lora`, and `--use_wandb`.
 
+Launch commands should call the tracked Python entrypoints directly, or import modules from `pipeline/` for custom orchestration.
+
 ## Standard evaluation
 
 Example:
