@@ -10,13 +10,6 @@ pip install -r requirements-sdft.txt
 
 The core training path in `train.py` also imports `hf_olmo` and `olmo_core`, so those packages must be available in the environment you use for OLMo-style training and evaluation.
 
-## Data
-
-There are two data layouts in this repo.
-
-1. Standard continual-mixing runs use text files in `data-mixes/`. Each line in a mix file is joined onto `DATA_ROOT` (or `--data_root`).
-2. SDFT runs use JSON domain folders under `SDFT_DATA_ROOT` (defaults to `data/`).
-
 ## Standard training
 
 Example:
